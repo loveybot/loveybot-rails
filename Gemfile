@@ -5,6 +5,7 @@ gem 'httparty'
 gem 'hashie'
 gem 'loveybot', git: 'git@github.com:loveybot/loveybot.git'
 gem 'pg'
+gem 'lazy_susan'
 
 # Gems used only for assets and not required
 # in production environments by default.
