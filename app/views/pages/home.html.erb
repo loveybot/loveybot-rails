@@ -1,0 +1,10 @@
+
+<h1>LOVEYBOT</h1>
+
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+<% end%>
+
+<%= form_tag(yay_path, method: :post) %>
+  <%= submit_tag, "Distribute Love" %>
+<% end %>
