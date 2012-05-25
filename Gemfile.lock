@@ -1,7 +1,8 @@
-PATH
-  remote: ../loveybot/
+GIT
+  remote: git@github.com:loveybot/loveybot.git
+  revision: f05bfc0dec1a9ad4dbfd6d4f1af14c6b2e416756
   specs:
-    loveybot (0.0.0)
+    loveybot (0.1.0)
 
 GEM
   remote: https://rubygems.org/
