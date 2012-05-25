@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
   end
 
-  def distribute_love
+  def yay
     flash[:notice] = Loveybot.yay
     return render :home
   end
