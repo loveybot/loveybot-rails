@@ -5,6 +5,10 @@ gem 'httparty'
 gem 'hashie'
 gem 'loveybot', git: 'git@github.com:loveybot/loveybot.git'
 
+group :development do
+  gem 'sqlite3'
+end
+
 group :production do
   gem 'pg'
 end

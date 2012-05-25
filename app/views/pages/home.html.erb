@@ -5,6 +5,8 @@
   <p><%= flash[:notice] %></p>
 <% end%>
 
-<%= form_tag(yay_path, method: :post) do %>
-  <%= submit_tag "Distribute Love" %>
-<% end %>
+<div class="center">
+  <%= form_tag(yay_path, method: :post) do %>
+    <%= submit_tag "Distribute Love", class: 'button' %>
+  <% end %>
+</div>
