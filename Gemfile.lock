@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:loveybot/loveybot.git
-  revision: f05bfc0dec1a9ad4dbfd6d4f1af14c6b2e416756
+  revision: 253dd6542e235221383384e40339edeeb6a4458d
   specs:
-    loveybot (0.1.0)
+    loveybot (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -57,7 +57,6 @@ GEM
       railties (>= 3.2.0, < 5.0)
       thor (~> 0.14)
     json (1.7.3)
-    lazy_susan (0.7.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -119,7 +118,6 @@ DEPENDENCIES
   hashie
   httparty
   jquery-rails
-  lazy_susan
   loveybot!
   pg
   rails (= 3.2.3)
