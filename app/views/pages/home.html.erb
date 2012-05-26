@@ -1,12 +1,19 @@
+<div class="smaller">
+  <div class ="flash">	
+    <% if flash[:notice] %>
+      <p><%= flash[:notice] %></p>
+	<% end%>
+  </div>
+  <div class="nav">
+    <h2>Spreading Ruby cheer, one Gist at a time.</h2>
+	<p>When you click the button below, I'll leave a nice comment on a recent Github Gist written in Ruby. I only post to lonely gists without other comments.</p>
+	<h3>Play nice.</h3>
+	<p>I only have a limited amount of love to give, so be sure to leave some button-clicking goodness for others. </p>
+  </div>
 
-<h1>LOVEYBOT</h1>
-
-<% if flash[:notice] %>
-  <p><%= flash[:notice] %></p>
-<% end%>
-
-<div class="center">
-  <%= form_tag(yay_path, method: :post) do %>
-    <%= submit_tag "Distribute Love", class: 'button' %>
-  <% end %>
+  <div class="center">
+    <%= form_tag(yay_path, method: :post) do %>
+      <%= submit_tag "Distribute Love", class: 'distro' %>
+    <% end %>
+  </div>
 </div>
